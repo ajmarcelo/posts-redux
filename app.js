@@ -1,3 +1,7 @@
+// createAsyncThunk - for handling async requests
+//                  - lifecycles: pending, fulfilled, failed
+//                  - returns a promise/response
+
 const { createAsyncThunk, createSlice, configureStore } = require('@reduxjs/toolkit');
 const axios = require('axios')
 
